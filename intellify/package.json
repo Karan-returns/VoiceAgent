@@ -1,0 +1,19 @@
+{
+  "name": "intellify-voice-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NovaTel billing voice agent with self-healing prompt loops (LiveKit + MERN).",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev:agent": "tsx watch apps/agent/index.ts",
+    "dev:server": "tsx watch apps/server/index.ts",
+    "agent": "tsx apps/agent/index.ts",
+    "server": "tsx apps/server/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

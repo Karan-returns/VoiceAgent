@@ -1,0 +1,5 @@
+{
+  "_comment": "Sample diarized transcript fixture used by analysis + healing tests (Agent/Customer turns with timestamps).",
+  "callId": "sample-001",
+  "turns": []
+}
